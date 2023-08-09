@@ -1,0 +1,69 @@
+.groupIcon {
+  position: absolute;
+  height: 87.93%;
+  width: 130.51%;
+  top: 0;
+  right: -30.51%;
+  bottom: 12.07%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.whisper2023 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-weight: 600;
+}
+.dashboard,
+.whisper {
+  position: relative;
+  font-weight: 600;
+}
+.dashboard {
+  font-size: var(--font-size-5xl);
+}
+.hostWrapper {
+  border-radius: var(--br-5xs);
+  background: linear-gradient(124.29deg, #1dd3b0, #affc41);
+  box-shadow: var(--primary-shadow);
+  padding: var(--padding-5xs) var(--padding-5xl);
+  align-items: center;
+  justify-content: center;
+}
+.frameParent,
+.hostWrapper,
+.whisperParent {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.whisperParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  padding: var(--padding-5xl) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-13xl);
+}
+.eventHostingPage {
+  position: relative;
+  background: linear-gradient(#010d0a, #010d0a), #fff;
+  width: 100%;
+  height: 1493px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-white);
+  font-family: var(--font-plus-jakarta-sans);
+}

@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --font-size-base: 16px;
+  --font-size-5xl: 24px;
+  --font-size-13xl: 32px;
+  --font-size-3xs: 10px;
+  --font-size-17xl: 36px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #06221d;
+  --color-darkslategray: #086375;
+  --color-mediumaquamarine: #1dd3b0;
+  --color-greenyellow: #affc41;
+  --color-palegreen: #b2ff9e;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-294xl: 313px;
+  --gap-109xl: 128px;
+  --gap-5xl: 24px;
+  --gap-13xl: 32px;
+  --gap-81xl: 100px;
+  --gap-21xl: 40px;
+  --gap-27xl: 46px;
+
+  /* Paddings */
+  --padding-5xl: 24px;
+  --padding-61xl: 80px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-29xl: 48px;
+  --padding-xs: 12px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-base: 16px;
+  --br-13xl: 32px;
+
+  /* Effects */
+  --primary-shadow: 0px 4px 16px rgba(175, 252, 65, 0.5);
+}
